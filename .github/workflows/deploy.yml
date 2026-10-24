@@ -33,11 +33,12 @@ jobs:
           unzip website.zip -d app
           test -f app/package.json
 
+       
       - name: Install dependencies and build
         working-directory: app
         run: |
-          npm install
-          npm run build
+         npm install --legacy-peer-deps
+         npm run build
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
