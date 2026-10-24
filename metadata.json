@@ -1,0 +1,6 @@
+{
+  "name": "Finance Gyan India - पर्सनल फाइनेंस एवं निवेश गाइड",
+  "description": "भारत का विश्वसनीय पर्सनल फाइनेंस, म्यूचुअल फंड, SIP, टैक्स सेविंग और वित्तीय कैलकुलेटर पोर्टल।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
